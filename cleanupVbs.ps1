@@ -16,5 +16,5 @@ Start-Process powershell.exe -Verb runAs -ArgumentList ('-noprofile -noexit -fil
 
 exit
 }
-cscript "C:\Users\!sona20232\Desktop\test2\cleanup.vbs"
+cscript $PSScriptRoot"\cleanup.vbs"
 #Clean chrome cache
